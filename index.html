@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .background {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: url('https://i.pinimg.com/736x/70/e3/de/70e3de8aa008899761744d00f2103734.jpg');
+        background-size: cover;
+        filter: blur(2px);
+        z-index: -1;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: linear-gradient(100deg, #0a35f3e1, #24f703);
+        padding: 10px 20px;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    h1:hover {
+        color: #f3f305;
+        transform: scale(1.1);
+        transition: color 0.3s ease-in-out;
+        text-decoration: double;
+
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-left: auto;
+    }
+
+    ul li {
+        margin: 0 40px;
+    }
+
+    ul li a {
+        list-style: none;
+        text-decoration: none;
+        color: rgb(252, 250, 250);
+        font-weight: bold;
+    }
+
+    ul li:hover {
+        transform: scale(1.1);
+    }
+
+    .logo img {
+        height: 70px;
+        border-radius: 50%;
+    }
+
+    .logo {
+        margin-left: auto;
+    }
+
+    .logo:hover {
+        transform: scale(1.1);
+    }
+
+    .place {
+
+        width: 300px;
+        height: 500px;
+        margin: 20px;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 20px 100px;
+
+    }
+
+    .place:hover {
+        transform: scale(1.1);
+    }
+
+    .place img {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+
+    }
+
+    select {
+        background: linear-gradient(90deg, #f8f6f6, #e5da05);
+    }
+    
+</style>
+
+<body>
+    <div class="background"></div>
+    <nav>
+        <div class="header">
+            <h1>Animal Rescue</h1>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#"><label for="Animal">Animal Type</label><br><select>
+                        <option>Mammals</option>
+                        <option>Bird</option>
+                        <option>Fish</option>
+                        <option>Amphibians</option>
+                        <option>Reptiles</option>
+                        <option>Invertebrates</option>
+                    </select></a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Adoption</a></li>
+        </ul>
+        <a href="Registration.html" class="logo">
+            <img src="https://th.bing.com/th/id/OIP.Zv1faqMd-lSmyWAzpP-_JQHaEK?rs=1&pid=ImgDetMain" alt="Register logo">
+        </a>
+    </nav>
+    <div class="container">
+        <div class="place">
+            <img src="https://i.pinimg.com/736x/aa/78/87/aa7887b312c63222499fdad2e77236f6.jpg">
+            <h4>Animals wait for us with hearts full of love and loyalty, their presence a constant source of joy and
+                comfort. A wagging tail, a gentle purr, or a playful nudge reminds us of the simple beauty of
+                connection. They teach us kindness, patience, and how to love without limits, making every moment with
+                them unforgettable. 🐾❤</h4>
+        </div>
+        <div class="place">
+            <img src="https://i.pinimg.com/736x/bb/0f/ac/bb0faceb46ca0593a61efbd1fdb4e308.jpg">
+            <h4>
+                The relationship between animals and humans is built on emotional bonds, ecological balance, cultural
+                significance, and practical roles. Animals provide companionship, support ecosystems, inspire
+                traditions, and assist in daily life. 🐾❤</h4>
+        </div>
+        <div class="place">
+            <img src="https://i.pinimg.com/736x/83/59/65/83596517d85a118f35e0ff5256baf52b.jpg">
+            <h4>Animal testing subjects animals to pain and suffering for medical, cosmetic, and chemical experiments.
+                Many alternatives, such as cell cultures, computer models, and human-based testing, can replace animal
+                experiments. We should prioritize cruelty-free methods to ensure the safety and well-being of both
+                humans and animals. Let’s support innovation that doesn’t harm innocent lives. 🐾🚫</h4>
+        </div>
+    </div>
+</body>
+
+</html>
